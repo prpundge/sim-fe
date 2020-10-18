@@ -18,6 +18,7 @@ export class AppTopbar extends Component {
                 <button className="p-link layout-menu-button" onClick={this.props.onToggleMenu}>
                     <span className="pi pi-bars"/>
                 </button>
+                {/*
                 <div className="layout-topbar-icons">
                     <span className="layout-topbar-search">
                         <InputText type="text" placeholder="Search" />
@@ -37,6 +38,7 @@ export class AppTopbar extends Component {
                         <span className="layout-topbar-icon pi pi-user"/>
                     </button>
                 </div>
+                */}
             </div>
         );
     }

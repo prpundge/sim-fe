@@ -33,7 +33,7 @@ class App extends Component {
         super();
         this.state = {
             layoutMode: 'static',
-            layoutColorMode: 'dark',
+            layoutColorMode: 'light',
             staticMenuInactive: false,
             overlayMenuActive: false,
             mobileMenuActive: false
@@ -44,6 +44,7 @@ class App extends Component {
         this.onSidebarClick = this.onSidebarClick.bind(this);
         this.onMenuItemClick = this.onMenuItemClick.bind(this);
         this.createMenu();
+        
     }
 
     onWrapperClick(event) {
