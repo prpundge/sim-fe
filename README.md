@@ -1,1 +1,3 @@
-# sim-fe
+npm install
+
+npm start
